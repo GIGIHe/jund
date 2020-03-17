@@ -1,0 +1,221 @@
+*{margin: 0;padding: 0;}
+html{ font-family: "Microsoft YaHei"; color:#333; font-size:100px;}
+html,body{width:100%;min-width:7.5rem;height:100%;background: #f4f4f4;}
+li{ list-style:none; }
+a{ text-decoration:none; color:#333; }
+a img{ border:0; }
+img{ vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+.clearfix{ *zoom:1; }
+.clearfix:after{ content:""; display:block; clear:both; }
+.fl{float: left}
+.fr{float: right}
+input {/*-webkit-appearance:none;*/outline: none}
+.main{width: 7.5rem;margin: 0 auto}
+.zg-wrap{margin: 0 auto;width: 7.5rem;}
+header {
+    width: 7.5rem;
+    height: .8rem;
+    background: #f2f2f2;
+}
+header a {
+    font:700 .2rem/.4rem "microsoft yahei";
+    color:#fff;
+}
+header a img {
+    float: left;
+}
+header .logo {
+    display: block;
+    float: left;
+    width: 2rem;
+    height: .36rem;
+    margin-top: .2rem;
+    margin-left: .3rem;
+}
+header .zgfb {
+    display: block;
+    float: right;
+    width: 1.15rem;
+    height: .36rem;
+    margin-right: .3rem;
+    margin-top: .2rem;
+}
+header .logo img {
+    width: .75rem;
+    height: .34rem;
+    margin-right: .1rem;
+}
+header .zgfb img {
+    width: .27rem;
+    height: .24rem;
+    margin-top: .12rem;
+}
+header.fixed {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left: -3.75rem;
+    z-index: 899;
+}
+.navbar {
+    box-shadow: none;
+    background: rgba(70,70,70,0);
+}
+.navbar.active {
+    background: rgb(255,255,255);
+    transition: background 3s;
+}
+.navbar.active a {
+    color:#000;
+}
+/*footer*/
+.foot{
+    position: fixed;
+    bottom:0;
+    width:7.5rem;
+    height:.9rem;
+    overflow: hidden;
+    z-index:999;
+}
+.foot a{
+    float: left;
+    width:3.75rem;
+    font:.26rem/0.9rem 'Microsoft YaHei';
+    text-align: center;
+}
+.foot a:first-child{
+    background: #f2f2f2;
+    color: #000;
+}
+.foot a:first-child img {
+    width: .47rem;
+    height: .4rem;
+    margin-right: .1rem;
+}
+.foot a:last-child{
+    background: #dc2f3c;
+    color: #fff;
+}
+.foot a:last-child img {
+    width: .3rem;
+    height: .38rem;
+    margin-right: .1rem;
+}
+
+
+/*m_banner*/
+.mban {
+    width: 7.5rem;
+    height:4.65rem;
+    background: url(../images/ban.jpg)no-repeat center top;
+    -webkit-background-size: 7.5rem;
+    background-size: 7.5rem;
+}
+.mban h1 {
+    text-indent: -9999px;
+    font-size: .2rem;
+}
+.mban .row1{
+    width: 3.62rem;
+    height:1.14rem;
+    background: url(../images/ks.png)no-repeat center top;
+    -webkit-background-size: 3.62rem;
+    background-size: 3.62rem;
+    margin-left: 1.6rem;
+}
+.mban .row2{
+    height:1.2rem;
+    background: url(../images/tit2.png)no-repeat center top;
+    -webkit-background-size: 6.27rem;
+    background-size: 6.27rem;
+    margin-top: -.1rem;
+}
+.mban .row3{
+    height:2.16rem;
+    background: url(../images/ren.png)no-repeat center top;
+    -webkit-background-size: 3.21rem;
+    background-size: 3.21rem;
+    margin-top: -.26rem;
+    position: relative;
+}
+.main{
+    width: 7.5rem;
+    height:18.95rem;
+    background: url(../images/main.jpg)no-repeat center top #ecf4fe;
+    -webkit-background-size:  7.5rem;
+    background-size:  7.5rem;
+    box-sizing: border-box;
+    margin-top: -1px;
+}
+.tabs{
+	width: 6.8rem;
+	height: 4.9rem;
+	background: #fff;
+	box-shadow: 0px .06rem 0px #9bd0fb;
+	padding-top: .3rem;
+  border-radius: .2rem;
+  	margin: 0 auto;
+	margin-bottom: 1rem;
+}
+.tabs h2{
+	width: 3.92rem;
+  height:.53rem;
+  	margin: 0 auto;
+  background: url(../images/ttbg.png) no-repeat center top;	
+   -webkit-background-size:  3.92rem;
+    background-size:  3.92rem;
+	margin-bottom: .25rem;
+	color:#fff;
+	text-align: center;
+	font: 400 .24rem/.53rem "microsoft yahei";
+}
+.tabw{
+	width: 6.4rem;
+	height: 3.4rem;
+  overflow-y: auto;
+  	margin: 0 auto;
+   /* border: 1px solid #000; */
+}
+.tabs table{
+	width: 6.3rem;
+	border-collapse: collapse;
+	margin: 0 auto;
+	text-align: center;
+}
+.tabs table th{
+	font: 500 .22rem/.4rem "microsoft yahei";
+	color: #fff;
+	text-align: center;
+	width: 21%;
+	height: .4rem;
+	border-radius: 2px 2px 0 0;
+	background: #226cf0;
+	border: 1px solid #acd2fc;
+}
+.tabs table th:nth-child(3),.tabs table th:nth-child(5){
+	width: 14%;
+}
+.tabs table th:nth-child(4){
+	width: 30%;
+}
+.tabs table td{
+    font: 500 .21rem "microsoft yahei";
+	color: #226cf0;
+	text-align: center;
+	cursor: pointer;
+	padding: .1rem 0;
+	background: #ceecff;
+	border: 1px solid #acd2fc;
+	transition: 0.2s;
+}
+.tabs table td a{
+	 font:500 .21rem "microsoft yahei";
+	color: #fff;
+	text-align: center;
+	background: #ffb538;
+	border-radius: .1rem;
+	padding: .1rem;
+}
+
+
